@@ -1,4 +1,4 @@
-import { Selector, SelectorWithProps } from "../types/models";
+import { Selector, SelectorWithProps } from "./models";
 
 export type AnyFn = (...args: any[]) => any;
 

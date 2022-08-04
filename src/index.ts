@@ -9,4 +9,4 @@ export {
     Predicate,
     IdSelector,
     Comparer
-} from "../types/models";
+} from "./models";

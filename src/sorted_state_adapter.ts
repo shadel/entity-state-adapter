@@ -5,7 +5,7 @@ import {
     EntityStateAdapter,
     Update,
     EntityMap
-} from "../types/models";
+} from "./models";
 import { createStateOperator, DidMutate } from "./state_adapter";
 import { createUnsortedStateAdapter } from "./unsorted_state_adapter";
 import { selectIdValue } from "./utils";

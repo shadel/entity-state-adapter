@@ -5,7 +5,7 @@ import {
     Update,
     Predicate,
     EntityMap
-} from "../types/models";
+} from "./models";
 import { createStateOperator, DidMutate } from "./state_adapter";
 import { selectIdValue } from "./utils";
 

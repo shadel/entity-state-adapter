@@ -3,7 +3,7 @@ import {
     Comparer,
     IdSelector,
     EntityAdapter
-} from "../types/models";
+} from "./models";
 import { createInitialStateFactory } from "./entity_state";
 import { createSelectorsFactory } from "./state_selectors";
 import { createSortedStateAdapter } from "./sorted_state_adapter";

@@ -1,5 +1,5 @@
 import { createSelector } from "./selector";
-import { EntityState, EntitySelectors, Dictionary } from "../types/models";
+import { EntityState, EntitySelectors, Dictionary } from "./models";
 
 export function createSelectorsFactory<T>() {
     function getSelectors(): EntitySelectors<T, EntityState<T>>;

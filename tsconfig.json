@@ -8,5 +8,5 @@
         "declarationDir": "types"
     },
     "exclude": ["node_modules"],
-    "include": ["src", "types/models.ts"]
+    "include": ["src"]
 }
